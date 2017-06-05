@@ -2,7 +2,7 @@
 <?php 
 header("Content-type: text/html; charset=utf-8"); 
 $md_path_all = $lister->getListedPath();
-$md_path = explode("pw", $md_path_all);
+$md_path = explode("com", $md_path_all);
 if($md_path[1] != ""){
 	$md_path_last = substr($md_path[1], -1);
 	if($md_path_last != "/"){
