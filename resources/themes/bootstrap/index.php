@@ -15,7 +15,7 @@ $md_text = file_get_contents($md_file);
 ?>
 <html>
     <head>
-        <title>DOUBI Soft <?php echo $md_path_all; ?></title>
+        <title>Cloud File <?php echo $md_path_all; ?></title>
         <link rel="shortcut icon" href="<?php echo THEMEPATH; ?>/img/folder.png">
         <!-- STYLES -->
         <link rel="stylesheet" href="/resources/themes/bootstrap/css/bootstrap.min.css">
